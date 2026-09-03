@@ -3,26 +3,46 @@
   "summary": "A beginner-friendly, TypeScript, real-assertion demo describing Selenium WebDriver browser automation against the live Google Search website.",
   "description": "Describes driving a real Chrome browser to https://www.google.com, checking the home page title, searching for 'testing examples' and checking the results title, then clicking the first result and checking the browser navigated away from google.com. Written and reviewed for correctness but deliberately never executed against the live site by this repo's own tooling, because Google's Terms of Service restrict automated querying of Google Search.",
   "repository": "https://github.com/testingexamples/demo-selenium-typescript-for-google-search/",
-  "license": "GPL-2.0-or-later",
+  "license": "MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause",
   "sections": [
     {
       "title": "Docs",
       "links": [
-        { "title": "README", "url": "README.md", "description": "Install and run instructions, and the Google Terms of Service caution." },
-        { "title": "Spec", "url": "spec/index.md", "description": "Exact scenario specification — the three assertions, selectors, and expected strings." },
-        { "title": "Citation", "url": "CITATION.cff", "description": "Citation metadata for this software." }
+        {
+          "title": "README",
+          "url": "README.md",
+          "description": "Install and run instructions, and the Google Terms of Service caution."
+        },
+        {
+          "title": "Spec",
+          "url": "spec/index.md",
+          "description": "Exact scenario specification \u2014 the three assertions, selectors, and expected strings."
+        },
+        {
+          "title": "Citation",
+          "url": "CITATION.cff",
+          "description": "Citation metadata for this software."
+        }
       ]
     },
     {
       "title": "Source",
       "links": [
-        { "title": "demo.ts", "url": "src/demo.ts", "description": "The demo script itself." }
+        {
+          "title": "demo.ts",
+          "url": "src/demo.ts",
+          "description": "The demo script itself."
+        }
       ]
     },
     {
       "title": "Optional",
       "links": [
-        { "title": "AGENTS.md", "url": "AGENTS.md", "description": "Agent instructions pointer (loaded by CLAUDE.md), including the non-negotiable policy against live execution." }
+        {
+          "title": "AGENTS.md",
+          "url": "AGENTS.md",
+          "description": "Agent instructions pointer (loaded by CLAUDE.md), including the non-negotiable policy against live execution."
+        }
       ]
     }
   ]
