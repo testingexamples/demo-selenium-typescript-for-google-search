@@ -1,0 +1,17 @@
+# Demo Selenium TypeScript for Google Search
+
+> A beginner-friendly, TypeScript, real-assertion demo describing Selenium WebDriver browser automation against the live Google Search website. Never executed against the live site by this repo's own tooling — see the Google Terms of Service caution in README.md and AGENTS.md.
+
+## Docs
+
+- [README](README.md): Install and run instructions, and the Google Terms of Service caution.
+- [Spec](spec/index.md): Exact scenario specification — the three assertions, selectors, and expected strings.
+- [Citation](CITATION.cff): Citation metadata for this software.
+
+## Source
+
+- [demo.ts](src/demo.ts): The demo script itself.
+
+## Optional
+
+- [AGENTS.md](AGENTS.md): Agent instructions pointer (loaded by CLAUDE.md), including the non-negotiable policy against live execution.
